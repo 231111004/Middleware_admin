@@ -1,0 +1,69 @@
+$primary: #ffcc00;
+$body-bg-dark: #1b1b1b;
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4.5,
+    7: $spacer * 6,
+    8: $spacer * 7.5
+);
+
+$success: #34ff9a;
+$info: #3954ae;
+$danger: #ef3b3e;
+
+//card
+$card-bg: #272727;
+$card-border-width: 0;
+$card-border-radius: 20px;
+$card-box-shadow: 5px 5px 10px 0px #00000040;
+
+//input
+$input-bg: transparent;
+$input-border-color: #ffffff;
+$input-border-width: 1px;
+
+//button
+$btn-border-radius: 10px;
+
+//pagination
+$pagination-color: #4f4f4f;
+$pagination-bg: #272727;
+$pagination-border-width: 2px;
+$pagination-border-radius: 5px;
+$pagination-border-color: #4f4f4f;
+
+$pagination-disabled-color: #3a3a3a;
+$pagination-disabled-bg: #272727;
+$pagination-disabled-border-color: #3a3a3a;
+
+$pagination-hover-color: #ffcc00;
+$pagination-hover-bg: #272727;
+$pagination-hover-border-color: #ffcc00;
+
+$pagination-active-color: #000000;
+$pagination-active-bg: linear-gradient(135deg, #ffcc00 0%, #ff8c18 100%);
+$pagination-active-border-color: transparent;
+
+//modal
+$modal-content-bg: #272727;
+$modal-content-border-color: rgba(255, 255, 255, 0.25);
+$modal-content-border-width: 0;
+
+$modal-header-border-color: rgba(255, 255, 255, 0.25);
+$modal-header-border-width: 2px;
+$modal-footer-border-color: $modal-header-border-color;
+$modal-footer-border-width: $modal-header-border-width;
+
+$modal-backdrop-opacity: 0.5;
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+$font-family-sans-serif: "Outfit", sans-serif;
+
+@import "../scss/bootstrap.scss";
